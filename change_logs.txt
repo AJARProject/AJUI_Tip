@@ -1,0 +1,47 @@
+Logs of the work done
+
+v1.2 - GI - 09-12.07.2019 :
+- Refactoring of the workflow of the show and hide of a tip.
+- Call the worker only when necessary.
+- Rework the fade in / fade out to always be executed when we do a show or hide.
+- Create a method that will handle the duration of a tip. The duration doesn't include the fade in or fade out.
+- Include the animation handler in between the fade in / fade out and the duration handler. Make sure all work in a good way.
+- You cannot relaunch an animation until it is finished. You can relaunch the animation if you have change some properties of the tip. 
+- Use a interprocess object to keep the tip references (kind of internal Storage)
+- Use a process variable to store all the instances UUID of the current process
+- Add a AJUI_Tip_clearCache method to use to clean the internal storage for the current process.
+- Update and test the Lab.
+
+V1.3 - GI - 09.08.2019
+- Add the ability to use Form inside a subform tip. To be able to do that, the user must define "Form.tip_sf_details=new object" (with some attributes if needed) in the main form where the tip will be displayed. It is then possible to communicate via this attribute between the main form and the subform loaded as a tip.
+
+
+V1.4 - GC - 03.09.2019
+Component :
+- New feature : curved arrow, 4 news formulas to handle them.
+- Fixed formula name : Show and Hide (first letter in upper case).
+- User manual updated.
+Lab :
+- Added new skin for each HDI form.
+- Lab form completely reworked, using Advanced ListBox for properties, AJUI_Button and AJUI_Banner.
+- New HDI Curves example provided.
+
+V1.4.1 - GC - 11.11.2019
+Component :
+- updated v18
+- fix a problem with the subform context
+Lab :
+- updated v18
+- fix HDI subform
+
+V1.4.2 - GI - 16.11.2019
+Component :
+- Set back the SVG option to absolute coordinate after drawing svg in relative if the option was absolute.
+
+V1.5.0 - GC - 13.12.2019
+Component :
+ - Export and Import template method/formula modified
+ - Manuals updated
+Lab :
+ - New file system to save/load the templates
+ - Lab manuals created
