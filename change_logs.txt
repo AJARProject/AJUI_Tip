@@ -45,3 +45,7 @@ Component :
 Lab :
  - New file system to save/load the templates
  - Lab manuals created
+
+V1.5.1 - GC - 20.12.2019
+Lab :
+ - Update menu
