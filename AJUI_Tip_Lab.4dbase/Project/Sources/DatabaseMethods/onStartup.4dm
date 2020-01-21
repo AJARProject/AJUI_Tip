@@ -1,0 +1,2 @@
+SET DATABASE PARAMETER:C642(Tips enabled:K37:79;0)
+

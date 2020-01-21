@@ -1,0 +1,283 @@
+﻿{
+	"destination": "detailScreen",
+	"shared": true,
+	"formSizeAnchor": "size",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Ligne": {
+					"type": "line",
+					"top": 82,
+					"left": 1,
+					"width": 262,
+					"stroke": "#C0C0C0"
+				},
+				"Ligne1": {
+					"type": "line",
+					"top": 242,
+					"left": 1,
+					"width": 262,
+					"stroke": "#C0C0C0"
+				},
+				"title": {
+					"type": "input",
+					"top": 6,
+					"left": 6,
+					"width": 251,
+					"height": 43,
+					"stroke": "#C0C0C0",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 18,
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"hideFocusRing": true,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/title.4dm",
+					"events": [
+						"onLosingFocus",
+						"onGettingFocus"
+					]
+				},
+				"place": {
+					"type": "input",
+					"top": 59,
+					"left": 6,
+					"width": 251,
+					"height": 16,
+					"stroke": "#C0C0C0",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"hideFocusRing": true,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/place.4dm",
+					"events": [
+						"onLosingFocus",
+						"onGettingFocus",
+						"onDataChange"
+					]
+				},
+				"startDate": {
+					"type": "input",
+					"top": 94,
+					"left": 56,
+					"width": 146,
+					"height": 16,
+					"dataSourceTypeHint": "date",
+					"stroke": "#FFFFFF",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"hideFocusRing": true,
+					"contextMenu": "none",
+					"dateFormat": "systemLong",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"startHour": {
+					"type": "input",
+					"top": 94,
+					"left": 206,
+					"width": 49,
+					"height": 16,
+					"dataSourceTypeHint": "time",
+					"stroke": "#FFFFFF",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"hideFocusRing": true,
+					"contextMenu": "none",
+					"timeFormat": "hh_mm",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"endDate": {
+					"type": "input",
+					"top": 115,
+					"left": 56,
+					"width": 146,
+					"height": 16,
+					"dataSourceTypeHint": "date",
+					"stroke": "#FFFFFF",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"hideFocusRing": true,
+					"contextMenu": "none",
+					"dateFormat": "systemLong",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"endHour": {
+					"type": "input",
+					"top": 115,
+					"left": 206,
+					"width": 49,
+					"height": 16,
+					"dataSourceTypeHint": "time",
+					"stroke": "#FFFFFF",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"hideFocusRing": true,
+					"contextMenu": "none",
+					"timeFormat": "hh_mm",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Popup Liste déroulante": {
+					"type": "dropdown",
+					"top": 154,
+					"left": 99,
+					"width": 156,
+					"height": 22,
+					"focusable": false,
+					"choiceList": [
+						"15 minutes",
+						"30 minutes",
+						"1 hour",
+						"1 day before"
+					],
+					"fontFamily": ".SF NS Text",
+					"fontSize": 12,
+					"events": [
+						"onDataChange"
+					]
+				},
+				"notes": {
+					"type": "input",
+					"top": 251,
+					"left": 6,
+					"width": 251,
+					"height": 46,
+					"stroke": "#C0C0C0",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 12,
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"hideFocusRing": true,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/notes.4dm",
+					"events": [
+						"onLosingFocus",
+						"onGettingFocus"
+					]
+				},
+				"Texte": {
+					"type": "text",
+					"top": 94,
+					"left": 10,
+					"width": 44,
+					"height": 16,
+					"stroke": "#C0C0C0",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 12,
+					"text": "Start :"
+				},
+				"Texte1": {
+					"type": "text",
+					"top": 115,
+					"left": 10,
+					"width": 44,
+					"height": 16,
+					"stroke": "#C0C0C0",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 12,
+					"text": "End :"
+				},
+				"Texte2": {
+					"type": "text",
+					"top": 94,
+					"left": 10,
+					"width": 44,
+					"height": 16,
+					"stroke": "#C0C0C0",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 12,
+					"text": "Start :"
+				},
+				"Texte3": {
+					"type": "text",
+					"top": 154,
+					"left": 10,
+					"width": 77,
+					"height": 16,
+					"stroke": "#C0C0C0",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 12,
+					"text": "Reminder :"
+				},
+				"size": {
+					"type": "rectangle",
+					"top": 294,
+					"left": 248,
+					"width": 15,
+					"height": 16,
+					"visibility": "hidden",
+					"fill": "#FF0000"
+				}
+			}
+		}
+	]
+}

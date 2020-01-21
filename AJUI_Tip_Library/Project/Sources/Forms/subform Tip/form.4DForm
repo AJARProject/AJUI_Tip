@@ -1,0 +1,27 @@
+﻿{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"AJUI_Tip_sf": {
+					"type": "subform",
+					"top": 38,
+					"left": 1005,
+					"width": 118,
+					"height": 138,
+					"detailForm": "AJUI_Tip_container",
+					"focusable": false,
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable"
+				}
+			}
+		}
+	]
+}

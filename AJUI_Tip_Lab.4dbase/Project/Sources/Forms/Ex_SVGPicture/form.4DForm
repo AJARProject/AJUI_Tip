@@ -1,0 +1,317 @@
+﻿{
+	"destination": "detailScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"formSizeAnchor": "rectSize",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onClick",
+		"onOutsideCall",
+		"onMouseEnter",
+		"onMouseLeave",
+		"onMouseMove"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Rectangle3": {
+					"type": "rectangle",
+					"top": 1,
+					"left": 0,
+					"width": 1073,
+					"height": 1000,
+					"stroke": "transparent"
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 1,
+					"left": 0,
+					"width": 1078,
+					"height": 59,
+					"fill": "#005EA8",
+					"stroke": "transparent"
+				},
+				"Picture1": {
+					"type": "picture",
+					"top": 889,
+					"left": 487,
+					"width": 96,
+					"height": 96,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture1.png"
+				},
+				"HDI": {
+					"type": "text",
+					"top": 11,
+					"left": 0,
+					"width": 1078,
+					"height": 44,
+					"stroke": "#FFFFFF",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 36,
+					"fontWeight": "bold",
+					"text": "How Do I"
+				},
+				"Invisible Button2": {
+					"type": "button",
+					"top": 889,
+					"left": 482,
+					"width": 109,
+					"height": 96,
+					"display": false,
+					"method": "ObjectMethods/Invisible Button2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"rectSize": {
+					"type": "rectangle",
+					"top": 981,
+					"left": 1054,
+					"width": 22,
+					"height": 20,
+					"visibility": "hidden",
+					"fill": "#FF0000",
+					"stroke": "#FF0000"
+				},
+				"Variable4": {
+					"type": "input",
+					"top": 976,
+					"left": 881,
+					"width": 182,
+					"height": 17,
+					"dataSource": "AJUI_Tip_info ",
+					"textAlign": "right",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom"
+				},
+				"Title": {
+					"type": "text",
+					"top": 59,
+					"left": 0,
+					"width": 1078,
+					"height": 30,
+					"stroke": "#3498DB",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 24,
+					"text": "AJUI_Tip"
+				},
+				"Subtitle": {
+					"type": "text",
+					"top": 90,
+					"left": 0,
+					"width": 1078,
+					"height": 23,
+					"stroke": "#005EA8",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 18,
+					"fontStyle": "italic",
+					"text": "SVG Picture"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Button": {
+					"type": "button",
+					"top": 929,
+					"left": 906,
+					"width": 150,
+					"height": 30,
+					"dataSource": "Button",
+					"action": "cancel",
+					"text": "Close",
+					"events": [
+						"onClick"
+					]
+				},
+				"USAMap_obj": {
+					"type": "input",
+					"top": 186,
+					"left": 27,
+					"width": 1014,
+					"height": 657,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"scrollbarVertical": "automatic",
+					"scrollbarHorizontal": "automatic",
+					"dragging": "custom",
+					"method": "ObjectMethods/USAMap_obj.4dm",
+					"events": [
+						"onLoad",
+						"onClick",
+						"onDataChange",
+						"onUnload",
+						"onMouseMove"
+					]
+				},
+				"Text": {
+					"type": "text",
+					"top": 929,
+					"left": 29,
+					"width": 19,
+					"height": 17,
+					"text": "x:"
+				},
+				"Variable": {
+					"type": "input",
+					"top": 929,
+					"left": 57,
+					"width": 58,
+					"height": 17,
+					"dataSource": "MouseX",
+					"dataSourceTypeHint": "number",
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"numberFormat": "###,##0.00",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 955,
+					"left": 28,
+					"width": 19,
+					"height": 17,
+					"text": "y:"
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 955,
+					"left": 56,
+					"width": 58,
+					"height": 17,
+					"dataSource": "MouseY",
+					"dataSourceTypeHint": "number",
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"numberFormat": "###,##0.00",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text2": {
+					"type": "text",
+					"top": 929,
+					"left": 124,
+					"width": 19,
+					"height": 17,
+					"text": "dx:"
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 929,
+					"left": 152,
+					"width": 58,
+					"height": 17,
+					"dataSource": "Form:C1466.dx",
+					"dataSourceTypeHint": "number",
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"numberFormat": "###,##0.00",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text3": {
+					"type": "text",
+					"top": 955,
+					"left": 124,
+					"width": 19,
+					"height": 17,
+					"text": "dy:"
+				},
+				"Variable3": {
+					"type": "input",
+					"top": 955,
+					"left": 152,
+					"width": 58,
+					"height": 17,
+					"dataSource": "Form:C1466.dy",
+					"dataSourceTypeHint": "number",
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"numberFormat": "###,##0.00",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text12": {
+					"type": "text",
+					"top": 139,
+					"left": 12,
+					"width": 826,
+					"height": 17,
+					"class": "default",
+					"text": "You can use specific coordinates like in such example with a SVG Picture, to display your tooltip  :"
+				},
+				"Text6": {
+					"type": "text",
+					"top": 880,
+					"left": 27,
+					"width": 94,
+					"height": 33,
+					"textAlign": "center",
+					"text": "Mouse position \rrel. Form"
+				},
+				"Text7": {
+					"type": "text",
+					"top": 880,
+					"left": 130,
+					"width": 94,
+					"height": 33,
+					"textAlign": "center",
+					"text": "Mouse position \rrel. Picture"
+				},
+				"AJUI_Tip_sf": {
+					"type": "subform",
+					"top": 86,
+					"left": 1243,
+					"width": 118,
+					"height": 138,
+					"focusable": false,
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable"
+				}
+			}
+		}
+	]
+}

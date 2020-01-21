@@ -1,0 +1,532 @@
+﻿{
+	"destination": "detailScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"formSizeAnchor": "rectSize",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"menuBar": "Menu Bar #1",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onMouseLeave",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Rectangle3": {
+					"type": "rectangle",
+					"top": 2,
+					"left": 0,
+					"width": 1081,
+					"height": 800,
+					"stroke": "transparent"
+				},
+				"Button": {
+					"type": "button",
+					"top": 723,
+					"left": 912,
+					"width": 150,
+					"height": 40,
+					"action": "cancel",
+					"text": "Close",
+					"events": [
+						"onClick"
+					]
+				},
+				"code_obj": {
+					"type": "input",
+					"top": 714,
+					"left": 24,
+					"width": 369,
+					"height": 69,
+					"dataSource": "Form:C1466.code",
+					"class": "code",
+					"styledText": true,
+					"storeDefaultStyle": true,
+					"allowFontColorPicker": true,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"Text2": {
+					"type": "text",
+					"top": 690,
+					"left": 24,
+					"width": 226,
+					"height": 17,
+					"text": "Code :  "
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 2,
+					"left": 0,
+					"width": 1081,
+					"height": 59,
+					"fill": "#005EA8",
+					"stroke": "transparent"
+				},
+				"Picture1": {
+					"type": "picture",
+					"top": 695,
+					"left": 579,
+					"width": 96,
+					"height": 96,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture1.png"
+				},
+				"HDI": {
+					"type": "text",
+					"top": 12,
+					"left": 0,
+					"width": 1081,
+					"height": 44,
+					"stroke": "#FFFFFF",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 36,
+					"fontWeight": "bold",
+					"text": "How Do I"
+				},
+				"Invisible Button2": {
+					"type": "button",
+					"top": 695,
+					"left": 574,
+					"width": 109,
+					"height": 96,
+					"display": false,
+					"method": "ObjectMethods/Invisible Button2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"rectSize": {
+					"type": "rectangle",
+					"top": 782,
+					"left": 1059,
+					"width": 22,
+					"height": 20,
+					"visibility": "hidden",
+					"fill": "#FF0000",
+					"stroke": "#FF0000"
+				},
+				"Variable": {
+					"type": "input",
+					"top": 777,
+					"left": 888,
+					"width": 182,
+					"height": 17,
+					"dataSource": "AJUI_Tip_info ",
+					"textAlign": "right",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom"
+				},
+				"Title": {
+					"type": "text",
+					"top": 60,
+					"left": 0,
+					"width": 1081,
+					"height": 30,
+					"stroke": "#3498DB",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 24,
+					"text": "AJUI_Tip"
+				},
+				"Subtitle": {
+					"type": "text",
+					"top": 91,
+					"left": 0,
+					"width": 1081,
+					"height": 23,
+					"stroke": "#005EA8",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 18,
+					"fontStyle": "italic",
+					"text": "Perfect Arrow positioning"
+				},
+				"Text10": {
+					"type": "text",
+					"top": 126,
+					"left": 25,
+					"width": 345,
+					"height": 33,
+					"text": "You can define the position you want for each tip."
+				}
+			}
+		},
+		{
+			"objects": {
+				"Group Box1": {
+					"type": "groupBox",
+					"top": 153,
+					"left": 407,
+					"width": 265,
+					"height": 60,
+					"fontFamily": ".SF NS Text",
+					"fontSize": 12,
+					"text": "Horizontaly"
+				},
+				"left": {
+					"type": "radio",
+					"top": 174,
+					"left": 413,
+					"width": 70,
+					"height": 34,
+					"dataSource": "Form:C1466.arrow_left",
+					"text": "left",
+					"focusable": false,
+					"radioGroup": "Groupe11",
+					"method": "ObjectMethods/left.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"center": {
+					"type": "radio",
+					"top": 174,
+					"left": 497,
+					"width": 70,
+					"height": 34,
+					"dataSource": "Form:C1466.arrow_center",
+					"text": "center",
+					"focusable": false,
+					"radioGroup": "Groupe11",
+					"method": "ObjectMethods/center.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"right": {
+					"type": "radio",
+					"top": 174,
+					"left": 581,
+					"width": 70,
+					"height": 34,
+					"dataSource": "Form:C1466.arrow_right",
+					"text": "right",
+					"focusable": false,
+					"radioGroup": "Groupe11",
+					"method": "ObjectMethods/right.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"top-left": {
+					"type": "button",
+					"top": 310,
+					"left": 150,
+					"width": 228,
+					"height": 106,
+					"text": "Top-left",
+					"focusable": false,
+					"method": "ObjectMethods/top-left.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bottom-left": {
+					"type": "button",
+					"top": 492,
+					"left": 155,
+					"width": 228,
+					"height": 106,
+					"text": "Bottom-left",
+					"focusable": false,
+					"method": "ObjectMethods/bottom-left.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"top-center": {
+					"type": "button",
+					"top": 310,
+					"left": 415,
+					"width": 228,
+					"height": 106,
+					"text": "Top-Center",
+					"focusable": false,
+					"method": "ObjectMethods/top-center.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bottom-center": {
+					"type": "button",
+					"top": 492,
+					"left": 420,
+					"width": 228,
+					"height": 106,
+					"text": "Bottom-Center",
+					"focusable": false,
+					"method": "ObjectMethods/bottom-center.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"top-right": {
+					"type": "button",
+					"top": 310,
+					"left": 680,
+					"width": 228,
+					"height": 106,
+					"text": "Top-right",
+					"focusable": false,
+					"method": "ObjectMethods/top-right.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bottom-right": {
+					"type": "button",
+					"top": 492,
+					"left": 685,
+					"width": 228,
+					"height": 106,
+					"text": "Bottom-right",
+					"focusable": false,
+					"method": "ObjectMethods/bottom-right.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"gotoPage_2": {
+					"type": "button",
+					"top": 85,
+					"left": 790,
+					"width": 265,
+					"height": 37,
+					"text": "Test Arrow position verticaly >>",
+					"focusable": false,
+					"method": "ObjectMethods/gotoPage_2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"AJUI_Tip_sf": {
+					"type": "subform",
+					"top": 41,
+					"left": 1132,
+					"width": 118,
+					"height": 138,
+					"focusable": false,
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Group Box2": {
+					"type": "groupBox",
+					"top": 153,
+					"left": 407,
+					"width": 265,
+					"height": 60,
+					"fontFamily": ".SF NS Text",
+					"fontSize": 12,
+					"text": "Verticaly"
+				},
+				"top": {
+					"type": "radio",
+					"top": 173,
+					"left": 419,
+					"width": 70,
+					"height": 34,
+					"dataSource": "Form:C1466.arrow_top",
+					"text": "top",
+					"focusable": false,
+					"radioGroup": "Group10",
+					"method": "ObjectMethods/top.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"middle": {
+					"type": "radio",
+					"top": 173,
+					"left": 503,
+					"width": 70,
+					"height": 34,
+					"dataSource": "Form:C1466.arrow_middle",
+					"text": "middle",
+					"focusable": false,
+					"radioGroup": "Group10",
+					"method": "ObjectMethods/middle.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bottom": {
+					"type": "radio",
+					"top": 173,
+					"left": 587,
+					"width": 70,
+					"height": 34,
+					"dataSource": "Form:C1466.arrow_bottom",
+					"text": "bottom",
+					"focusable": false,
+					"radioGroup": "Group10",
+					"method": "ObjectMethods/bottom.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"left-top": {
+					"type": "button",
+					"top": 252,
+					"left": 258,
+					"width": 228,
+					"height": 106,
+					"text": "Left-top",
+					"focusable": false,
+					"method": "ObjectMethods/left-top.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"left-bottom": {
+					"type": "button",
+					"top": 524,
+					"left": 258,
+					"width": 228,
+					"height": 106,
+					"text": "Left-bottom",
+					"focusable": false,
+					"method": "ObjectMethods/left-bottom.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"left-middle": {
+					"type": "button",
+					"top": 385,
+					"left": 258,
+					"width": 228,
+					"height": 106,
+					"text": "Left-Middle",
+					"focusable": false,
+					"method": "ObjectMethods/left-middle.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"right-middle": {
+					"type": "button",
+					"top": 385,
+					"left": 587,
+					"width": 228,
+					"height": 106,
+					"text": "Right-middle",
+					"focusable": false,
+					"method": "ObjectMethods/right-middle.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"right-top": {
+					"type": "button",
+					"top": 252,
+					"left": 587,
+					"width": 228,
+					"height": 106,
+					"text": "Right-top",
+					"focusable": false,
+					"method": "ObjectMethods/right-top.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"right-bottom": {
+					"type": "button",
+					"top": 524,
+					"left": 587,
+					"width": 228,
+					"height": 106,
+					"text": "Right-bottom",
+					"focusable": false,
+					"method": "ObjectMethods/right-bottom.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"gotoPage_1": {
+					"type": "button",
+					"top": 85,
+					"left": 790,
+					"width": 265,
+					"height": 37,
+					"text": "<< Test Arrow position horizontaly",
+					"focusable": false,
+					"method": "ObjectMethods/gotoPage_1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"AJUI_Tip_sf_page2": {
+					"type": "subform",
+					"top": 84,
+					"left": 1136,
+					"width": 118,
+					"height": 138,
+					"focusable": false,
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable"
+				}
+			}
+		}
+	],
+	"editor": {
+		"groups": {
+			"Groupe11": [
+				"left",
+				"center",
+				"right"
+			],
+			"Group10": [
+				"top",
+				"middle",
+				"bottom"
+			]
+		}
+	}
+}

@@ -1,0 +1,289 @@
+﻿{
+	"destination": "detailScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"formSizeAnchor": "rectSize",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"menuBar": "Menu Bar #1",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onClick",
+		"onOutsideCall",
+		"onTimer",
+		"onMouseLeave",
+		"onMouseMove"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Rectangle3": {
+					"type": "rectangle",
+					"top": 2,
+					"left": 0,
+					"width": 758,
+					"height": 680,
+					"stroke": "transparent"
+				},
+				"Button": {
+					"type": "button",
+					"top": 602,
+					"left": 591,
+					"width": 150,
+					"height": 40,
+					"action": "cancel",
+					"text": "Close",
+					"events": [
+						"onClick"
+					]
+				},
+				"code_obj": {
+					"type": "input",
+					"top": 594,
+					"left": 25,
+					"width": 452,
+					"height": 69,
+					"dataSource": "Form:C1466.code",
+					"class": "code",
+					"styledText": true,
+					"storeDefaultStyle": true,
+					"allowFontColorPicker": true,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 2,
+					"left": 0,
+					"width": 763,
+					"height": 59,
+					"fill": "#005EA8",
+					"stroke": "transparent"
+				},
+				"Picture1": {
+					"type": "picture",
+					"top": 65,
+					"left": 654,
+					"width": 96,
+					"height": 96,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture1.png"
+				},
+				"HDI": {
+					"type": "text",
+					"top": 12,
+					"left": 0,
+					"width": 763,
+					"height": 44,
+					"stroke": "#FFFFFF",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 36,
+					"fontWeight": "bold",
+					"text": "How Do I"
+				},
+				"Invisible Button2": {
+					"type": "button",
+					"top": 65,
+					"left": 649,
+					"width": 109,
+					"height": 96,
+					"display": false,
+					"method": "ObjectMethods/Invisible Button2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"rectSize": {
+					"type": "rectangle",
+					"top": 662,
+					"left": 741,
+					"width": 22,
+					"height": 20,
+					"visibility": "hidden",
+					"fill": "#FF0000",
+					"stroke": "#FF0000"
+				},
+				"Variable": {
+					"type": "input",
+					"top": 657,
+					"left": 568,
+					"width": 182,
+					"height": 17,
+					"dataSource": "AJUI_Tip_info ",
+					"textAlign": "right",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom"
+				},
+				"Title": {
+					"type": "text",
+					"top": 60,
+					"left": 0,
+					"width": 763,
+					"height": 30,
+					"stroke": "#3498DB",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 24,
+					"text": "AJUI_Tip"
+				},
+				"Subtitle": {
+					"type": "text",
+					"top": 91,
+					"left": 0,
+					"width": 763,
+					"height": 23,
+					"stroke": "#005EA8",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 18,
+					"fontStyle": "italic",
+					"text": "Close Box"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 571,
+					"left": 23,
+					"width": 226,
+					"height": 17,
+					"text": "Code :  "
+				}
+			}
+		},
+		{
+			"objects": {
+				"Round Rectangle9": {
+					"type": "rectangle",
+					"top": 178,
+					"left": 292,
+					"width": 178,
+					"height": 37,
+					"fill": "#FFC0C0",
+					"stroke": "#AAAAAA",
+					"borderRadius": 5
+				},
+				"Round Rectangle10": {
+					"type": "rectangle",
+					"top": 310,
+					"left": 264,
+					"width": 234,
+					"height": 43,
+					"fill": "#FFA0A0",
+					"stroke": "#AAAAAA",
+					"borderRadius": 5
+				},
+				"Round Rectangle11": {
+					"type": "rectangle",
+					"top": 471,
+					"left": 257,
+					"width": 253,
+					"height": 54,
+					"fill": "#FF7F7F",
+					"stroke": "#AAAAAA",
+					"borderRadius": 5
+				},
+				"Text2": {
+					"type": "text",
+					"top": 190,
+					"left": 310,
+					"width": 130,
+					"height": 14,
+					"stroke": "#696969",
+					"class": "small",
+					"textAlign": "center",
+					"text": "small closeBox Button"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 324,
+					"left": 280,
+					"width": 190,
+					"height": 16,
+					"stroke": "#696969",
+					"class": "medium",
+					"textAlign": "center",
+					"text": "medium closeBox Button"
+				},
+				"Text5": {
+					"type": "text",
+					"top": 490,
+					"left": 284,
+					"width": 188,
+					"height": 18,
+					"stroke": "#696969",
+					"class": "large",
+					"textAlign": "center",
+					"text": "large closeBox Button\rsmall"
+				},
+				"closebox1_button": {
+					"type": "button",
+					"top": 178,
+					"left": 292,
+					"width": 178,
+					"height": 37,
+					"display": false,
+					"method": "ObjectMethods/closebox1_button.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"closebox2_button": {
+					"type": "button",
+					"top": 310,
+					"left": 264,
+					"width": 234,
+					"height": 43,
+					"display": false,
+					"method": "ObjectMethods/closebox2_button.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"closebox3_button": {
+					"type": "button",
+					"top": 471,
+					"left": 257,
+					"width": 253,
+					"height": 54,
+					"display": false,
+					"method": "ObjectMethods/closebox3_button.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"AJUI_Tip_sf": {
+					"type": "subform",
+					"top": 76,
+					"left": 920,
+					"width": 118,
+					"height": 138,
+					"focusable": false,
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable"
+				}
+			}
+		}
+	]
+}

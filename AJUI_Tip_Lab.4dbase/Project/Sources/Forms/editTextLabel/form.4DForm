@@ -1,0 +1,98 @@
+﻿{
+	"destination": "detailScreen",
+	"shared": true,
+	"formSizeAnchor": "rect_size",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Text1": {
+					"type": "text",
+					"top": 9,
+					"left": 19,
+					"width": 401,
+					"height": 17,
+					"fontWeight": "bold",
+					"text": "Tip text label"
+				},
+				"background": {
+					"type": "input",
+					"top": 37,
+					"left": 19,
+					"width": 444,
+					"height": 113,
+					"dataSource": "Form:C1466.textLabel",
+					"hideFocusRing": true,
+					"styledText": true,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"btnUpdateTextLabel": {
+					"type": "input",
+					"top": 162,
+					"left": 392,
+					"width": 71,
+					"height": 21,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "dotted",
+					"enterable": false,
+					"dragging": "none",
+					"method": "ObjectMethods/btnUpdateTextLabel.4dm",
+					"events": [
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
+				},
+				"rect_size": {
+					"type": "rectangle",
+					"top": 170,
+					"left": 455,
+					"width": 21,
+					"height": 21,
+					"visibility": "hidden",
+					"fill": "#FF0000",
+					"stroke": "transparent"
+				}
+			}
+		}
+	]
+}

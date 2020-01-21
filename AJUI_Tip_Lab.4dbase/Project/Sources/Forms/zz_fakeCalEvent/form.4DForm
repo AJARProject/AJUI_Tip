@@ -1,0 +1,124 @@
+﻿{
+	"destination": "detailScreen",
+	"shared": true,
+	"formSizeAnchor": "Rectangle",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle": {
+					"type": "rectangle",
+					"top": 70,
+					"left": 243,
+					"width": 20,
+					"height": 20,
+					"visibility": "hidden",
+					"fill": "#FF0000",
+					"stroke": "transparent"
+				},
+				"Button": {
+					"type": "button",
+					"top": 63,
+					"left": 16,
+					"width": 63,
+					"height": 19,
+					"text": "May be",
+					"focusable": false,
+					"method": "ObjectMethods/Button.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button1": {
+					"type": "button",
+					"top": 63,
+					"left": 111,
+					"width": 63,
+					"height": 19,
+					"text": "Decline",
+					"focusable": false,
+					"method": "ObjectMethods/Button1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button2": {
+					"type": "button",
+					"top": 63,
+					"left": 184,
+					"width": 63,
+					"height": 19,
+					"text": "Accept",
+					"method": "ObjectMethods/Button2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Picture2": {
+					"type": "picture",
+					"top": 8,
+					"left": 16,
+					"width": 47,
+					"height": 45,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture2.svg"
+				},
+				"Text": {
+					"type": "text",
+					"top": 11,
+					"left": 65,
+					"width": 77,
+					"height": 17,
+					"stroke": "#000000",
+					"fontWeight": "bold",
+					"text": "School"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 28,
+					"left": 65,
+					"width": 135,
+					"height": 25,
+					"stroke": "#000000",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 10,
+					"text": "From: Doris Ighshoï\rThu, 6 Jun at 10:45"
+				}
+			},
+			"entryOrder": [
+				"Button",
+				"Button1",
+				"Button2"
+			]
+		}
+	]
+}

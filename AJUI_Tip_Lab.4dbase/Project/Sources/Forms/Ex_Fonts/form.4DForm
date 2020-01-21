@@ -1,0 +1,305 @@
+﻿{
+	"destination": "detailScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"formSizeAnchor": "rectSize",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"menuBar": "Menu Bar #1",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onClick",
+		"onOutsideCall"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Rectangle3": {
+					"type": "rectangle",
+					"top": 2,
+					"left": 0,
+					"width": 758,
+					"height": 800,
+					"stroke": "transparent"
+				},
+				"Button": {
+					"type": "button",
+					"top": 723,
+					"left": 591,
+					"width": 150,
+					"height": 40,
+					"action": "cancel",
+					"text": "Close",
+					"events": [
+						"onClick"
+					]
+				},
+				"code_obj": {
+					"type": "input",
+					"top": 721,
+					"left": 25,
+					"width": 452,
+					"height": 69,
+					"dataSource": "Form:C1466.code",
+					"class": "code",
+					"styledText": true,
+					"storeDefaultStyle": true,
+					"allowFontColorPicker": true,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"Text2": {
+					"type": "text",
+					"top": 697,
+					"left": 25,
+					"width": 226,
+					"height": 17,
+					"text": "Code :  "
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 2,
+					"left": 0,
+					"width": 763,
+					"height": 59,
+					"fill": "#005EA8",
+					"stroke": "transparent"
+				},
+				"Picture1": {
+					"type": "picture",
+					"top": 65,
+					"left": 654,
+					"width": 96,
+					"height": 96,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture1.png"
+				},
+				"HDI": {
+					"type": "text",
+					"top": 12,
+					"left": 0,
+					"width": 763,
+					"height": 44,
+					"stroke": "#FFFFFF",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 36,
+					"fontWeight": "bold",
+					"text": "How Do I"
+				},
+				"Invisible Button2": {
+					"type": "button",
+					"top": 65,
+					"left": 649,
+					"width": 109,
+					"height": 96,
+					"display": false,
+					"method": "ObjectMethods/Invisible Button2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"rectSize": {
+					"type": "rectangle",
+					"top": 782,
+					"left": 741,
+					"width": 22,
+					"height": 20,
+					"visibility": "hidden",
+					"fill": "#FF0000",
+					"stroke": "#FF0000"
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 777,
+					"left": 568,
+					"width": 182,
+					"height": 17,
+					"dataSource": "AJUI_Tip_info ",
+					"textAlign": "right",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom"
+				},
+				"Title": {
+					"type": "text",
+					"top": 60,
+					"left": 0,
+					"width": 763,
+					"height": 30,
+					"stroke": "#3498DB",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 24,
+					"text": "AJUI_Tip"
+				},
+				"Subtitle": {
+					"type": "text",
+					"top": 91,
+					"left": 0,
+					"width": 763,
+					"height": 23,
+					"stroke": "#005EA8",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 18,
+					"fontStyle": "italic",
+					"text": "Font"
+				},
+				"Text10": {
+					"type": "text",
+					"top": 165,
+					"left": 20,
+					"width": 345,
+					"height": 33,
+					"text": "You can define the Font you want for each tip."
+				}
+			}
+		},
+		{
+			"objects": {
+				"Helvetica": {
+					"type": "button",
+					"top": 210,
+					"left": 25,
+					"width": 210,
+					"height": 27,
+					"text": "Helvetica",
+					"method": "ObjectMethods/Helvetica.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Times": {
+					"type": "button",
+					"top": 264,
+					"left": 25,
+					"width": 210,
+					"height": 27,
+					"text": "Times",
+					"fontFamily": "Times Roman",
+					"fontSize": 13,
+					"method": "ObjectMethods/Times.4dm",
+					"events": [
+						"onLoad",
+						"onClick"
+					]
+				},
+				"Emoji": {
+					"type": "button",
+					"top": 318,
+					"left": 25,
+					"width": 210,
+					"height": 27,
+					"text": "Emoji",
+					"fontFamily": "Apple Color Emoji",
+					"fontSize": 13,
+					"method": "ObjectMethods/Emoji.4dm",
+					"events": [
+						"onLoad",
+						"onClick"
+					]
+				},
+				"Avenir": {
+					"type": "button",
+					"top": 371,
+					"left": 25,
+					"width": 210,
+					"height": 27,
+					"text": "Avenir",
+					"fontFamily": "Avenir Roman",
+					"fontSize": 13,
+					"method": "ObjectMethods/Avenir.4dm",
+					"events": [
+						"onLoad",
+						"onClick"
+					]
+				},
+				"Lucida Grande": {
+					"type": "button",
+					"top": 425,
+					"left": 25,
+					"width": 210,
+					"height": 27,
+					"text": "Lucida Grande",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"method": "ObjectMethods/Lucida Grande.4dm",
+					"events": [
+						"onLoad",
+						"onClick"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 472,
+					"left": 20,
+					"width": 401,
+					"height": 33,
+					"text": "And you can use also mix different fonts, sizes, styles, colors"
+				},
+				"Variable": {
+					"type": "input",
+					"top": 514,
+					"left": 28,
+					"width": 449,
+					"height": 113,
+					"dataSource": "Form:C1466.textAreaExample",
+					"styledText": true,
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/Variable.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"Button1": {
+					"type": "button",
+					"top": 640,
+					"left": 365,
+					"width": 112,
+					"height": 30,
+					"text": "Test",
+					"focusable": false,
+					"method": "ObjectMethods/Button1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"AJUI_Tip_sf": {
+					"type": "subform",
+					"top": 66,
+					"left": 579,
+					"width": 118,
+					"height": 138,
+					"detailForm": "AJUI_Tip_container",
+					"focusable": false,
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable"
+				}
+			}
+		}
+	]
+}

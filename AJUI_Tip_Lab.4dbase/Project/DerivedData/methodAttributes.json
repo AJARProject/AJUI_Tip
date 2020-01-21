@@ -1,0 +1,223 @@
+﻿{
+	"methods": {
+		"hideTip": {
+			"timeStamp": "2020-01-21T08:10:56.816Z"
+		},
+		"combo": {
+			"timeStamp": "2020-01-21T08:10:56.793Z"
+		},
+		"closeCodeTip": {
+			"timeStamp": "2020-01-21T08:10:56.813Z"
+		},
+		"tip_templatesButtons": {
+			"timeStamp": "2020-01-21T08:10:56.808Z"
+		},
+		"dial_test_Ex_Positions": {
+			"timeStamp": "2020-01-21T08:10:56.790Z"
+		},
+		"dial_test_Ex_Sizes": {
+			"timeStamp": "2020-01-21T08:10:56.790Z"
+		},
+		"templatesButtonsEnable": {
+			"timeStamp": "2020-01-21T08:10:56.808Z"
+		},
+		"setArrayColor": {
+			"timeStamp": "2020-01-21T08:10:56.821Z"
+		},
+		"mytip_yellow": {
+			"timeStamp": "2020-01-21T08:10:56.795Z"
+		},
+		"formulaSetValue": {
+			"timeStamp": "2020-01-21T08:10:56.806Z"
+		},
+		"tip_arrow_pos_goto": {
+			"timeStamp": "2020-01-21T08:10:56.799Z"
+		},
+		"TLoc_TipSubform_init": {
+			"timeStamp": "2020-01-21T08:10:56.817Z"
+		},
+		"dial_test_Ex_Visual_Effects": {
+			"timeStamp": "2020-01-21T08:10:56.791Z"
+		},
+		"AJUI_labInfo": {
+			"timeStamp": "2020-01-21T09:19:44.393Z"
+		},
+		"Quit_lab": {
+			"timeStamp": "2020-01-21T08:10:56.823Z"
+		},
+		"LaunchTipHide": {
+			"timeStamp": "2020-01-21T08:10:56.801Z"
+		},
+		"Hex2Dec": {
+			"timeStamp": "2020-01-21T08:10:56.794Z"
+		},
+		"dial_test_Ex_Curves": {
+			"timeStamp": "2020-01-21T08:10:56.815Z"
+		},
+		"setPropertyStyle": {
+			"timeStamp": "2020-01-21T08:10:56.824Z"
+		},
+		"getTLocIcon": {
+			"timeStamp": "2020-01-21T08:10:56.819Z"
+		},
+		"getTlocPath": {
+			"timeStamp": "2020-01-21T08:10:56.819Z"
+		},
+		"TLoc_closePref": {
+			"timeStamp": "2020-01-21T08:10:56.818Z"
+		},
+		"formulasGetValues": {
+			"timeStamp": "2020-01-21T08:10:56.806Z"
+		},
+		"Tip_fontNameDisplay": {
+			"timeStamp": "2020-01-21T08:10:56.799Z"
+		},
+		"closeNewNameTip": {
+			"timeStamp": "2020-01-21T12:31:29.980Z"
+		},
+		"SubformLaunchShow": {
+			"timeStamp": "2020-01-21T08:10:56.801Z"
+		},
+		"dial_test_Ex_Fonts": {
+			"timeStamp": "2020-01-21T08:10:56.794Z"
+		},
+		"refreshPropertiesStyle": {
+			"timeStamp": "2020-01-21T08:10:56.824Z"
+		},
+		"Tip_different_shadow": {
+			"timeStamp": "2020-01-21T08:10:56.792Z"
+		},
+		"redrawTip": {
+			"timeStamp": "2020-01-21T08:10:56.807Z"
+		},
+		"TLoc_btn_pref_init": {
+			"timeStamp": "2020-01-21T08:10:56.819Z"
+		},
+		"tip_arrowPosition_rb": {
+			"timeStamp": "2020-01-21T08:10:56.798Z"
+		},
+		"calcLuminance": {
+			"timeStamp": "2020-01-21T08:10:56.823Z"
+		},
+		"dial_test_Ex_Subform": {
+			"timeStamp": "2020-01-21T08:10:56.796Z"
+		},
+		"Tip_content_codeTab": {
+			"timeStamp": "2020-01-21T08:10:56.804Z"
+		},
+		"dial_test_Ex_MultiPages": {
+			"timeStamp": "2020-01-21T08:10:56.803Z"
+		},
+		"tip_perfect_arrow_position": {
+			"timeStamp": "2020-01-21T08:10:56.797Z"
+		},
+		"dial_test_Ex_Animations": {
+			"timeStamp": "2020-01-21T08:10:56.802Z"
+		},
+		"newTemplateButton": {
+			"timeStamp": "2020-01-21T08:10:56.807Z"
+		},
+		"LaunchtipShow": {
+			"timeStamp": "2020-01-21T08:10:56.800Z"
+		},
+		"AJUI_Tip_getSubFormSize": {
+			"timeStamp": "2020-01-21T08:10:56.804Z",
+			"attributes": {
+				"shared": true
+			}
+		},
+		"dial_test_Ex_Skins": {
+			"timeStamp": "2020-01-21T08:10:56.789Z"
+		},
+		"tipTextLabel": {
+			"timeStamp": "2020-01-21T08:10:56.814Z"
+		},
+		"tip_text_orientation": {
+			"timeStamp": "2020-01-21T08:10:56.788Z"
+		},
+		"reloadTemplateList": {
+			"timeStamp": "2020-01-21T08:10:56.821Z"
+		},
+		"dial_test_Ex_CloseBox": {
+			"timeStamp": "2020-01-21T08:10:56.792Z"
+		},
+		"getLuminance": {
+			"timeStamp": "2020-01-21T08:10:56.822Z"
+		},
+		"loadPropertiesCollections": {
+			"timeStamp": "2020-01-21T08:10:56.805Z"
+		},
+		"Tip_code": {
+			"timeStamp": "2020-01-21T08:10:56.812Z"
+		},
+		"closeSaveTempTip": {
+			"timeStamp": "2020-01-21T08:10:56.820Z"
+		},
+		"Hexa2Dec": {
+			"timeStamp": "2020-01-21T08:10:56.816Z"
+		},
+		"alertDeleted": {
+			"timeStamp": "2020-01-21T08:10:56.809Z"
+		},
+		"btn_subform": {
+			"timeStamp": "2020-01-21T08:10:56.809Z"
+		},
+		"tip_different_sizes": {
+			"timeStamp": "2020-01-21T08:10:56.788Z"
+		},
+		"Tip_SaveTempSubform": {
+			"timeStamp": "2020-01-21T08:10:56.820Z"
+		},
+		"refreshArrayColor": {
+			"timeStamp": "2020-01-21T08:10:56.822Z"
+		},
+		"TLoc_loadPathSettings": {
+			"timeStamp": "2020-01-21T08:10:56.817Z"
+		},
+		"dial_test_Ex_TipWithSFContainer": {
+			"timeStamp": "2020-01-21T08:10:56.803Z"
+		},
+		"dial_Lab_AJUITip": {
+			"timeStamp": "2020-01-21T08:10:56.805Z"
+		},
+		"SubformLaunchHide": {
+			"timeStamp": "2020-01-21T08:10:56.802Z"
+		},
+		"dial_test_Ex_ListBox": {
+			"timeStamp": "2020-01-21T08:10:56.796Z"
+		},
+		"dial_test_Ex_Shadow": {
+			"timeStamp": "2020-01-21T08:10:56.793Z"
+		},
+		"GotoSubObj": {
+			"timeStamp": "2020-01-21T08:10:56.800Z"
+		},
+		"dial_test_Ex_SVGPicture": {
+			"timeStamp": "2020-01-21T08:10:56.797Z"
+		},
+		"convert": {
+			"timeStamp": "2020-01-21T08:10:56.789Z"
+		},
+		"updateTextLabel": {
+			"timeStamp": "2020-01-21T08:10:56.815Z"
+		},
+		"dial_test_Ex_Text_Orientation": {
+			"timeStamp": "2020-01-21T08:10:56.791Z"
+		},
+		"bannerProtectRibbon": {
+			"timeStamp": "2020-01-21T08:10:56.813Z"
+		},
+		"Tip_NewButtonName": {
+			"timeStamp": "2020-01-21T08:10:56.811Z"
+		},
+		"tip_beautiful_skins": {
+			"timeStamp": "2020-01-21T08:10:56.787Z"
+		},
+		"refresh": {
+			"timeStamp": "2020-01-21T08:10:56.814Z"
+		},
+		"Tipped2": {
+			"timeStamp": "2020-01-21T08:10:56.786Z"
+		}
+	}
+}

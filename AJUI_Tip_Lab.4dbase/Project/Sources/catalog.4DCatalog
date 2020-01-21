@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="AJUI_Tip_Lab" uuid="20E805EA758747BE967C68C58C809A74" collation_locale="en">
+	<schema name="DEFAULT_SCHEMA"/>
+	<base_extra __stringCompHash="icu:63.1.0" __keywordBuildingHash="icu:63.1.0" package_name="AJUI_Tip_Lab" structure_file_name="AJUI_Tip_Lab" data_file_path=":AJUI_Tip_Lab.4DD"/>
+</base>

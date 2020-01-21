@@ -1,0 +1,168 @@
+﻿{
+	"bars": [
+		{
+			"id": 1,
+			"name": "Menu Bar #1",
+			"picture": "pictlib:8",
+			"items": [
+				{
+					"link": 32001
+				},
+				{
+					"link": 32002
+				},
+				{
+					"link": 32003
+				}
+			]
+		}
+	],
+	"menus": [
+		{
+			"link": 32001,
+			"title": ":xliff:CommonMenuFile",
+			"items": [
+				{
+					"title": "HDI Animations",
+					"method": "dial_test_Ex_Animations"
+				},
+				{
+					"title": "HDI Closebox",
+					"method": "dial_test_Ex_CloseBox"
+				},
+				{
+					"title": "HDI Container and subform",
+					"method": "dial_test_Ex_Subform"
+				},
+				{
+					"title": "HDI Curves",
+					"method": "dial_test_Ex_Curves"
+				},
+				{
+					"title": "HDI Fonts",
+					"method": "dial_test_Ex_Fonts"
+				},
+				{
+					"title": "HDI Listbox",
+					"method": "dial_test_Ex_ListBox"
+				},
+				{
+					"title": "HDI Multi-pages",
+					"method": "dial_test_Ex_MultiPages"
+				},
+				{
+					"title": "HDI Positions",
+					"method": "dial_test_Ex_Positions"
+				},
+				{
+					"title": "HDI Shadow and opacity",
+					"method": "dial_test_Ex_Shadow"
+				},
+				{
+					"title": "HDI Sizes",
+					"method": "dial_test_Ex_Sizes"
+				},
+				{
+					"title": "HDI Skins",
+					"method": "dial_test_Ex_Skins"
+				},
+				{
+					"title": "HDI SVG Picture",
+					"method": "dial_test_Ex_SVGPicture"
+				},
+				{
+					"title": "HDI Text orientation",
+					"method": "dial_test_Ex_Text_Orientation"
+				},
+				{
+					"title": "HDI Tip with subform",
+					"method": "dial_test_Ex_TipWithSFContainer"
+				},
+				{
+					"title": "HDI Visul effects",
+					"method": "dial_test_Ex_Visual_Effects"
+				},
+				{
+					"title": "Ligne 1",
+					"isSeparator": true
+				},
+				{
+					"title": "AJUI Tip Lab",
+					"method": "dial_Lab_AJUITip"
+				},
+				{
+					"title": "Ligne 9",
+					"isSeparator": true
+				},
+				{
+					"title": ":xliff:CommonMenuItemQuit",
+					"method": "Quit_lab",
+					"shortcutAccel": true,
+					"shortcutKey": "Q"
+				}
+			]
+		},
+		{
+			"link": 32002,
+			"title": ":xliff:CommonMenuEdit",
+			"items": [
+				{
+					"title": ":xliff:CommonMenuItemUndo",
+					"shortcutAccel": true,
+					"shortcutKey": "Z",
+					"action": "undo"
+				},
+				{
+					"title": "(-",
+					"isSeparator": true
+				},
+				{
+					"title": ":xliff:CommonMenuItemCut",
+					"shortcutAccel": true,
+					"shortcutKey": "X",
+					"action": "cut"
+				},
+				{
+					"title": ":xliff:CommonMenuItemCopy",
+					"shortcutAccel": true,
+					"shortcutKey": "C",
+					"action": "copy"
+				},
+				{
+					"title": ":xliff:CommonMenuItemPaste",
+					"shortcutAccel": true,
+					"shortcutKey": "V",
+					"action": "paste"
+				},
+				{
+					"title": ":xliff:CommonMenuItemClear",
+					"action": "clear"
+				},
+				{
+					"title": ":xliff:CommonMenuItemSelectAll",
+					"shortcutAccel": true,
+					"shortcutKey": "A",
+					"action": "selectAll"
+				},
+				{
+					"title": "(-",
+					"isSeparator": true
+				},
+				{
+					"title": ":xliff:CommonMenuItemShowClipboard",
+					"action": "showClipboard"
+				}
+			]
+		},
+		{
+			"link": 32003,
+			"title": ":xliff:CommonMenuMode",
+			"items": [
+				{
+					"title": ":xliff:CommonMenuItemDesign",
+					"action": "design"
+				}
+			]
+		}
+	]
+}

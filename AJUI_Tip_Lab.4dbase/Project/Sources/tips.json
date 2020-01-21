@@ -1,0 +1,23 @@
+﻿{
+	"lastName": "Put your Last Name",
+	"TipLN": "Put the Last Name",
+	"TipFN": "Put the First Name",
+	"TipAddress": "Put the address\rin this field\rplease !",
+	"Tipzip": "Put the zip code",
+	"Tipcity": "Put the city location here",
+	"Tipcountry": "Put the country name in this field !",
+	"TipClose": "Use this button\rif you want to close\rthis window",
+	"TipTimerLoop": "Timer loop indice",
+	"TipEffect": "Tip Effect",
+	"TipOpacity": "Tip opacity %",
+	"Tiptime": "Tip in millisecond",
+	"TipExample": "This is a sample of Help Tip Text",
+	"TipCompany": "Put the company name\rin this field",
+	"CheckBoxSel": "Check this box to enable the property beside...",
+	"TipUpdStyle": "Click this button to update the current Tip Style Sheet file according to the current Lab settings",
+	"TipDeleteStyle": "Click this button to delete the current Tip Style Sheet",
+	"TipCodeCopy": "Click this button to get a copy of the upside code in your Pasteboard",
+	"TipHelpDisplay": "The check Box below can enable/disable the properties",
+	"Tiploopcurrent": "Current loop value",
+	"UnCheckBoxSel": "Uncheck this box to disable the property beside..."
+}

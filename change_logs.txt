@@ -49,3 +49,13 @@ Lab :
 V1.5.1 - GC - 20.12.2019
 Lab :
  - Update menu
+ 
+ V1.6.0 - GC - 20.01.2020
+Component :
+ - V18
+Lab :
+ - v18
+ - listbox properties edited in bold
+ - Lab manuals updated
+ 
+ 

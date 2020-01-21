@@ -1,0 +1,100 @@
+﻿{
+	"destination": "detailScreen",
+	"shared": true,
+	"formSizeAnchor": "recScreenDelimiter",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Button": {
+					"type": "pictureButton",
+					"top": 390,
+					"left": 335,
+					"width": 19,
+					"height": 23,
+					"picture": "/RESOURCES/pasteboard.png",
+					"loopBackToFirstFrame": true,
+					"method": "ObjectMethods/Button.4dm",
+					"events": [
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
+				},
+				"recScreenDelimiter": {
+					"type": "rectangle",
+					"top": 414,
+					"left": 470,
+					"width": 10,
+					"height": 10,
+					"visibility": "hidden",
+					"fill": "#FF6347",
+					"stroke": "#FF6347"
+				},
+				"code_obj": {
+					"type": "input",
+					"top": 7,
+					"left": 7,
+					"width": 444,
+					"height": 355,
+					"dataSource": "Form:C1466.code",
+					"class": "code",
+					"hideFocusRing": true,
+					"styledText": true,
+					"storeDefaultStyle": true,
+					"allowFontColorPicker": true,
+					"scrollbarVertical": "automatic",
+					"scrollbarHorizontal": "automatic",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"btnClose": {
+					"type": "input",
+					"top": 393,
+					"left": 380,
+					"width": 71,
+					"height": 21,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "dotted",
+					"enterable": false,
+					"dragging": "none",
+					"method": "ObjectMethods/btnClose.4dm",
+					"events": [
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
+				}
+			}
+		}
+	]
+}

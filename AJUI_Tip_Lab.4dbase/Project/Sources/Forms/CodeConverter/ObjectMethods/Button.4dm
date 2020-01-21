@@ -1,0 +1,1 @@
+Form:C1466.code:=convert (Form:C1466.text)

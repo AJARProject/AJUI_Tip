@@ -1,0 +1,275 @@
+﻿{
+	"destination": "detailScreen",
+	"shared": true,
+	"rightMargin": 0,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onClick"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": -1,
+					"left": 0,
+					"width": 598,
+					"height": 51,
+					"fill": "#005EA8",
+					"stroke": "transparent"
+				},
+				"Text": {
+					"type": "text",
+					"top": 59,
+					"left": 30,
+					"width": 109,
+					"height": 17,
+					"text": "Last Name"
+				},
+				"lastName_obj": {
+					"type": "input",
+					"top": 59,
+					"left": 159,
+					"width": 160,
+					"height": 17,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TipLN"
+					},
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/lastName_obj.4dm",
+					"events": [
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 87,
+					"left": 30,
+					"width": 109,
+					"height": 17,
+					"text": "First Name"
+				},
+				"firstName_obj": {
+					"type": "input",
+					"top": 87,
+					"left": 159,
+					"width": 160,
+					"height": 17,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TipFN"
+					},
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/firstName_obj.4dm",
+					"events": [
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus"
+					]
+				},
+				"Text2": {
+					"type": "text",
+					"top": 119,
+					"left": 30,
+					"width": 109,
+					"height": 17,
+					"text": "Address"
+				},
+				"address_obj": {
+					"type": "input",
+					"top": 119,
+					"left": 159,
+					"width": 160,
+					"height": 81,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TipAddress"
+					},
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/address_obj.4dm",
+					"events": [
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus"
+					]
+				},
+				"zip_obj": {
+					"type": "input",
+					"top": 220,
+					"left": 159,
+					"width": 61,
+					"height": 17,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Tipzip"
+					},
+					"placeholder": "zip code",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/zip_obj.4dm",
+					"events": [
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus"
+					]
+				},
+				"city_obj": {
+					"type": "input",
+					"top": 220,
+					"left": 235,
+					"width": 84,
+					"height": 17,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TipClose"
+					},
+					"placeholder": "location",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/city_obj.4dm",
+					"events": [
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus"
+					]
+				},
+				"country_obj": {
+					"type": "input",
+					"top": 257,
+					"left": 159,
+					"width": 160,
+					"height": 17,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Tipcountry"
+					},
+					"placeholder": "country",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/country_obj.4dm",
+					"events": [
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus"
+					]
+				},
+				"close_obj": {
+					"type": "button",
+					"top": 247,
+					"left": 472,
+					"width": 110,
+					"height": 37,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/TipClose"
+					},
+					"action": "cancel",
+					"text": "Close",
+					"method": "ObjectMethods/close_obj.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text3": {
+					"type": "text",
+					"top": 8,
+					"left": 11,
+					"width": 587,
+					"height": 44,
+					"stroke": "#ECECEC",
+					"class": "Title",
+					"text": "Fade-in, Fade-out & Autohide"
+				},
+				"Variable": {
+					"type": "input",
+					"top": 108,
+					"left": 387,
+					"width": 57,
+					"height": 17,
+					"dataSource": "Form:C1466.tip.target.coordinate.left",
+					"dataSourceTypeHint": "number",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 87,
+					"left": 449,
+					"width": 57,
+					"height": 17,
+					"dataSource": "Form:C1466.tip.target.coordinate.top",
+					"dataSourceTypeHint": "number",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 130,
+					"left": 449,
+					"width": 57,
+					"height": 17,
+					"dataSource": "Form:C1466.tip.target.coordinate.bottom",
+					"dataSourceTypeHint": "number",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable3": {
+					"type": "input",
+					"top": 108,
+					"left": 508,
+					"width": 57,
+					"height": 17,
+					"dataSource": "Form:C1466.tip.target.coordinate.right",
+					"dataSourceTypeHint": "number",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable4": {
+					"type": "input",
+					"top": 174,
+					"left": 393,
+					"width": 160,
+					"height": 17,
+					"dataSource": "Form:C1466.tip.target.name",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				}
+			}
+		}
+	],
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

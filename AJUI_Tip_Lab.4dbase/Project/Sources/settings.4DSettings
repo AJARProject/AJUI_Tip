@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><preferences stamp="12">
+	<com.4d>
+		<web>
+			<standalone_server>
+				<configuration automatic_session_management="true"/>
+			</standalone_server>
+			<remote>
+				<configuration automatic_session_management="true"/>
+			</remote>
+		</web>
+		<general startup_environnement="1"/>
+		<compiler>
+			<options error_file="true" fat_binary="true" symbol_file="true"/>
+			<typage default_for_button="1" default_for_numeric="1"/>
+		</compiler>
+		<database>
+			<misc/>
+		</database>
+		<server>
+			<network>
+				<options publication_name="AJUI_Tip_Lab" use_legacy_network_layer="false"/>
+				<client_server use_encryption="false"/>
+			</network>
+		</server>
+		<deployment>
+			<options/>
+		</deployment>
+		<interface>
+			<shortcuts>
+				<cancel_input_form alt="false" command="false" ctrl="false" key_code="13595" shift="false"/>
+			</shortcuts>
+		</interface>
+	</com.4d>
+</preferences>
