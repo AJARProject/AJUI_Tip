@@ -57,5 +57,6 @@ Lab :
  - v18
  - listbox properties edited in bold
  - Lab manuals updated
+ - Set default value for picker color
  
  
