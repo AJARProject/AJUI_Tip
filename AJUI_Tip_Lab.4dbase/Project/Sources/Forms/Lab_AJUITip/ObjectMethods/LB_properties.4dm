@@ -30,7 +30,7 @@ Case of
 		
 		
 		  //color properties : launch the color picker
-		$bgcolor_l:=Select RGB color:C956(16777215;"Select the Background Color")
+		$bgcolor_l:=Select RGB color:C956(setPickerColor ($values_ptr->{$values_ptr->}.value);"Select the Background Color")
 		$bgcolor_t:=Replace string:C233(String:C10($bgcolor_l;"&$");"$";"")
 		$bgcolor_t:=(6-Length:C16($bgcolor_t)*"0"+$bgcolor_t)
 		$bgcolor_t:="#"+$bgcolor_t
