@@ -6,7 +6,7 @@ A tip is created via the language and will be displayed in a subform element in 
 
 ### Documentation
 
-You can find a PDF with a complete documentation on how to use the component.
+[wiki AJUI_Tip](https://github.com/AJARProject/AJUI_Tip/wiki)
 
 **Example**
 
