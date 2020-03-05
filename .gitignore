@@ -9,6 +9,7 @@ LogStyleSheet.xsl
 **/DerivedData/**
 !**/DerivedData/*.json
 data.match
+*Components-inactivate/*
 userPreferences.*
 
 
