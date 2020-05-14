@@ -19,7 +19,9 @@ Case of
 			LISTBOX GET CELL POSITION:C971(*;"LB_properties";$mouseX;$mouseY;$col;$row)  // four parameters syntax
 			LISTBOX GET CELL COORDINATES:C1330(*;"LB_properties";$col;$row;$left;$top;$bottom;$right)
 			Form:C1466.tipTextLabel.TargetCoordinates($left;$top;$bottom;$right)
-			Form:C1466.tip_sf_details:=New object:C1471("textLabel";Form:C1466.tips[Form:C1466.currentNameTemplate].TextLabel();"backgroundColor";Form:C1466.tips[Form:C1466.currentNameTemplate].BackgroundColor();"fontColor";Form:C1466.tips[Form:C1466.currentNameTemplate].TextFontColor())
+			Form:C1466.tip_sf_details.textLabel:=Form:C1466.tips[Form:C1466.currentNameTemplate].TextLabel()
+			Form:C1466.tip_sf_details.backgroundColor:=Form:C1466.tips[Form:C1466.currentNameTemplate].BackgroundColor()
+			Form:C1466.tip_sf_details.fontColor:=Form:C1466.tips[Form:C1466.currentNameTemplate].TextFontColor()
 			Form:C1466.tipTextLabel.Show()
 		End if 
 		

@@ -10,6 +10,7 @@ Else
 	C_OBJECT:C1216($lab)
 	$lab:=loadPropertiesCollections 
 	$lab.templateLocPref:=TLoc_loadPathSettings 
+	$lab.tip_sf_details:=New object:C1471
 	$ref_win:=Open form window:C675("Lab_AJUITip";Plain form window:K39:10)
 	DIALOG:C40("Lab_AJUITip";$lab)
 	CLOSE WINDOW:C154($ref_win)
