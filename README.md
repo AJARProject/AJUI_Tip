@@ -28,6 +28,9 @@ A tip is created via the language and will be displayed in a subform element in 
 
 1.6.0-Build37  // Tue, 21 Jan 2020 15:06:04 GMT
 
+Minimal 4D Version : 
+ - 18 
+
 ### Questions?
 
 If you have any question, you can ask them directly on github or write to info@ajar.ch
