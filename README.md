@@ -26,10 +26,11 @@ A tip is created via the language and will be displayed in a subform element in 
 
 ### Version
 
-1.6.0-Build37  // Tue, 21 Jan 2020 15:06:04 GMT
+1.6.1-Build40  // Fri, 19 Jun 2020 08:50:21 GMT
 
 Minimal 4D Version : 
- - 18 
+ - 18 (using formula member function)
+ - 18 R3 (using class)
 
 ### Questions?
 

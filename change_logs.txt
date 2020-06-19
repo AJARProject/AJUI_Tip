@@ -64,3 +64,7 @@ Lab :
   - Quick save added (Mac : option + clic, Window : alt + clic)
   - The save form selects the folder type of the template and not the default folder for the dropdown list now
   - Updated wiki lab manuals
+  
+ V1.6.1 (component) - GC - 19.06.2020
+  - Added class Tip
+  - Updated wiki
