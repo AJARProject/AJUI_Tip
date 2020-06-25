@@ -4,6 +4,10 @@ AJUI Tip is a component made for 4D that help you to create and display tip in y
 
 A tip is created via the language and will be displayed in a subform element in your form. The tip is stored in an object that is an instance of a tip.
 
+### AJUI components library
+
+[AJUI_Library](https://github.com/AJARProject/AJUI_Library)
+
 ### Documentation
 
 [wiki AJUI_Tip](https://github.com/AJARProject/AJUI_Tip/wiki)
