@@ -14,6 +14,7 @@ A tip is created via the language and will be displayed in a subform element in 
 
 **Example**
 
+```4d
     Case of
       : (Form event=On Load)
         Form.tip:=New AJUI_Tip
@@ -27,6 +28,7 @@ A tip is created via the language and will be displayed in a subform element in 
       : (Form event=On Losing Focus)
         Form.tip.Hide()
     End case
+```
 
 ### Version
 
