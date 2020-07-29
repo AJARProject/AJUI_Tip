@@ -68,3 +68,7 @@ Lab :
  V1.6.1 (component) - GC - 19.06.2020
   - Added class Tip
   - Updated wiki
+  
+ V1.6.2 - GC - 29.07.2020
+  - You can use "#" to designate the 4D resources folder in your path when you load a template
+  - Updated wiki
