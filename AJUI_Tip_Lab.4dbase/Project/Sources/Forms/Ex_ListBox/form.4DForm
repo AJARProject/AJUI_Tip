@@ -306,7 +306,7 @@
 				"AJUI_Tip_sf": {
 					"type": "subform",
 					"top": -2,
-					"left": 599,
+					"left": 678,
 					"width": 118,
 					"height": 138,
 					"focusable": false,
@@ -463,5 +463,10 @@
 				}
 			}
 		}
-	]
+	],
+	"geometryStamp": 1,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
 }

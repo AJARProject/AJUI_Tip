@@ -551,7 +551,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"method": "ObjectMethods/RectProtect.4dm"
 				},
 				"AJUI_Banner": {
 					"type": "input",

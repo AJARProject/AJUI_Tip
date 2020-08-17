@@ -1,4 +1,4 @@
-C_LONGINT:C283($bottom_l;$col_l;$left_l;$raw_l;$right_l;$top_l;$x1_l;$x2_l;$y1_l;$y2_l)
+C_LONGINT:C283($bottom_l;$col_l;$left_l;$row_l;$right_l;$top_l;$x1_l;$x2_l;$y1_l;$y2_l)
 C_POINTER:C301($Ptr)
 C_TEXT:C284($footer_t;$header_t)
 C_OBJECT:C1216($coordinateCellLB_obj;$footerCoordinate_obj;$headerCoordinate_obj)
@@ -35,7 +35,7 @@ Case of
 			Form:C1466.tip.TargetCoordinates($x1_l;$y1_l;$x2_l;$y2_l)
 		End if 
 		
-		Form:C1466.tip.TextLabel("Column: "+String:C10($col_l)+" - Raw: "+String:C10($row_l))
+		Form:C1466.tip.TextLabel("Column: "+String:C10($col_l)+" - Row: "+String:C10($row_l))
 		Form:C1466.tip.TipName("xLB1")
 		Form:C1466.tip.Show()
 		
