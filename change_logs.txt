@@ -72,3 +72,7 @@ Lab :
  V1.6.2 - GC - 29.07.2020
   - You can use "#" to designate the 4D resources folder in your path when you load a template
   - Updated wiki
+
+ v1.7.0 - 20.02.2022
+  - Compile for Intel and M1
+
